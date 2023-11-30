@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "extra": {
+      "expoDevTools": {
+        "hotReload": true,
+        "liveReload": true
+      }
+    },
+    "name": "phone",
+    "slug": "phone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.blogpa.blogpa",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "fastRefresh": true,
+      "build": {
+        "babel": {
+          "enableBabelRCLookup": true
+        }
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_ERROR_RECOVERY",
+      "enabled": true,
+      "useClassicUpdates":true
+    
+    }
+  }
+}
